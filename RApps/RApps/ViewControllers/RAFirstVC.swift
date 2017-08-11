@@ -11,7 +11,9 @@ import UIKit
 class RAFirstVC: RABaseVC {
 
     override func loadViews() {
-        view.backgroundColor = .orange
+        RANetService.responseForWeatherWithAreaName(.WeatherWithArea(areaName: "重庆"))(success: {(resp: Any) in
+            print(resp)
+        })
     }
 
 }
