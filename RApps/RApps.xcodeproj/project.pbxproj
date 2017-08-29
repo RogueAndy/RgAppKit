@@ -26,7 +26,6 @@
 		82B82FDE1F3D55CF003AD0FD /* RABaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B82FDD1F3D55CF003AD0FD /* RABaseModel.swift */; };
 		82B82FE01F3D55FE003AD0FD /* RAWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B82FDF1F3D55FE003AD0FD /* RAWeatherModel.swift */; };
 		82C91ED31F55036F00F538BA /* RATesTgcd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C91ED21F55036F00F538BA /* RATesTgcd.swift */; };
-		82C91ED71F55505D00F538BA /* RABridgeFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C91ED61F55505D00F538BA /* RABridgeFile.m */; };
 		A8E5355DC72C8BCD4D517610 /* Pods_RApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7427411EEC9CA2268D9732BC /* Pods_RApps.framework */; };
 /* End PBXBuildFile section */
 
@@ -343,7 +342,6 @@
 				82B82F8E1F39A6F9003AD0FD /* ViewController.swift in Sources */,
 				82B82FB61F3AF2EA003AD0FD /* RAFourthVC.swift in Sources */,
 				82B82FE01F3D55FE003AD0FD /* RAWeatherModel.swift in Sources */,
-				82C91ED71F55505D00F538BA /* RABridgeFile.m in Sources */,
 				82B82FAC1F3AF244003AD0FD /* RATabbarVC.swift in Sources */,
 				82B82FB41F3AF2DE003AD0FD /* RAThirdVC.swift in Sources */,
 				82B82F8C1F39A6F9003AD0FD /* AppDelegate.swift in Sources */,
@@ -487,7 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rogue.andy.RApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RApps/Utils/RApps-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -509,7 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rogue.andy.RApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RApps/Utils/RApps-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
