@@ -1,2 +1,6 @@
 RApps/Cartfile.resolved
 RApps/Carthage/
+!Podfile.lock
+!Podfile
+Pods/
+Podfile.lock.orig

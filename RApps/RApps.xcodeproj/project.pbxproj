@@ -26,9 +26,13 @@
 		82B82FDE1F3D55CF003AD0FD /* RABaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B82FDD1F3D55CF003AD0FD /* RABaseModel.swift */; };
 		82B82FE01F3D55FE003AD0FD /* RAWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B82FDF1F3D55FE003AD0FD /* RAWeatherModel.swift */; };
 		82C91ED31F55036F00F538BA /* RATesTgcd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C91ED21F55036F00F538BA /* RATesTgcd.swift */; };
+		82C91ED71F55505D00F538BA /* RABridgeFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C91ED61F55505D00F538BA /* RABridgeFile.m */; };
+		A8E5355DC72C8BCD4D517610 /* Pods_RApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7427411EEC9CA2268D9732BC /* Pods_RApps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71F9D4D0DE9224F8CD12CC71 /* Pods-RApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RApps.release.xcconfig"; path = "Pods/Target Support Files/Pods-RApps/Pods-RApps.release.xcconfig"; sourceTree = "<group>"; };
+		7427411EEC9CA2268D9732BC /* Pods_RApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B82F881F39A6F9003AD0FD /* RApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B82F8B1F39A6F9003AD0FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		82B82F8D1F39A6F9003AD0FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +54,10 @@
 		82B82FDD1F3D55CF003AD0FD /* RABaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABaseModel.swift; sourceTree = "<group>"; };
 		82B82FDF1F3D55FE003AD0FD /* RAWeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAWeatherModel.swift; sourceTree = "<group>"; };
 		82C91ED21F55036F00F538BA /* RATesTgcd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RATesTgcd.swift; sourceTree = "<group>"; };
+		82C91ED41F55505C00F538BA /* RApps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RApps-Bridging-Header.h"; sourceTree = "<group>"; };
+		82C91ED51F55505D00F538BA /* RABridgeFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RABridgeFile.h; sourceTree = "<group>"; };
+		82C91ED61F55505D00F538BA /* RABridgeFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RABridgeFile.m; sourceTree = "<group>"; };
+		93BC400413117BED322E15DC /* Pods-RApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RApps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RApps/Pods-RApps.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,18 +66,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				82B82FD91F3BEC0D003AD0FD /* ImageIO.framework in Frameworks */,
+				A8E5355DC72C8BCD4D517610 /* Pods_RApps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03DCF90AC6FBA31243B63061 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93BC400413117BED322E15DC /* Pods-RApps.debug.xcconfig */,
+				71F9D4D0DE9224F8CD12CC71 /* Pods-RApps.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		82B82F7F1F39A6F8003AD0FD = {
 			isa = PBXGroup;
 			children = (
 				82B82F8A1F39A6F9003AD0FD /* RApps */,
 				82B82F891F39A6F9003AD0FD /* Products */,
 				82B82FD71F3BEC0D003AD0FD /* Frameworks */,
+				03DCF90AC6FBA31243B63061 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				82C91ED21F55036F00F538BA /* RATesTgcd.swift */,
+				82C91ED51F55505D00F538BA /* RABridgeFile.h */,
+				82C91ED61F55505D00F538BA /* RABridgeFile.m */,
+				82C91ED41F55505C00F538BA /* RApps-Bridging-Header.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -159,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				82B82FD81F3BEC0D003AD0FD /* ImageIO.framework */,
+				7427411EEC9CA2268D9732BC /* Pods_RApps.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,10 +193,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82B82F9A1F39A6F9003AD0FD /* Build configuration list for PBXNativeTarget "RApps" */;
 			buildPhases = (
+				1E1338E7846B0A98B766D777 /* [CP] Check Pods Manifest.lock */,
 				82B82F841F39A6F9003AD0FD /* Sources */,
 				82B82F851F39A6F9003AD0FD /* Frameworks */,
 				82B82F861F39A6F9003AD0FD /* Resources */,
 				82B82FB91F3BEA5A003AD0FD /* ShellScript */,
+				949085B163C71BA94E8E25BE /* [CP] Embed Pods Frameworks */,
+				00A0A03271541F3423AB392A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +222,7 @@
 				TargetAttributes = {
 					82B82F871F39A6F9003AD0FD = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -232,6 +259,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		00A0A03271541F3423AB392A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RApps/Pods-RApps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E1338E7846B0A98B766D777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		82B82FB91F3BEA5A003AD0FD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,6 +309,24 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		949085B163C71BA94E8E25BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RApps/Pods-RApps-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RApps/Pods-RApps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,6 +343,7 @@
 				82B82F8E1F39A6F9003AD0FD /* ViewController.swift in Sources */,
 				82B82FB61F3AF2EA003AD0FD /* RAFourthVC.swift in Sources */,
 				82B82FE01F3D55FE003AD0FD /* RAWeatherModel.swift in Sources */,
+				82C91ED71F55505D00F538BA /* RABridgeFile.m in Sources */,
 				82B82FAC1F3AF244003AD0FD /* RATabbarVC.swift in Sources */,
 				82B82FB41F3AF2DE003AD0FD /* RAThirdVC.swift in Sources */,
 				82B82F8C1F39A6F9003AD0FD /* AppDelegate.swift in Sources */,
@@ -394,8 +473,10 @@
 		};
 		82B82F9B1F39A6F9003AD0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BC400413117BED322E15DC /* Pods-RApps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -406,14 +487,18 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rogue.andy.RApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RApps/Utils/RApps-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		82B82F9C1F39A6F9003AD0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F9D4D0DE9224F8CD12CC71 /* Pods-RApps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -424,6 +509,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rogue.andy.RApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RApps/Utils/RApps-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
