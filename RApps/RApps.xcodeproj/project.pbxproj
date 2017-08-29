@@ -25,6 +25,7 @@
 		82B82FD91F3BEC0D003AD0FD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B82FD81F3BEC0D003AD0FD /* ImageIO.framework */; };
 		82B82FDE1F3D55CF003AD0FD /* RABaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B82FDD1F3D55CF003AD0FD /* RABaseModel.swift */; };
 		82B82FE01F3D55FE003AD0FD /* RAWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B82FDF1F3D55FE003AD0FD /* RAWeatherModel.swift */; };
+		82C91ED31F55036F00F538BA /* RATesTgcd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C91ED21F55036F00F538BA /* RATesTgcd.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		82B82FD81F3BEC0D003AD0FD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		82B82FDD1F3D55CF003AD0FD /* RABaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABaseModel.swift; sourceTree = "<group>"; };
 		82B82FDF1F3D55FE003AD0FD /* RAWeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAWeatherModel.swift; sourceTree = "<group>"; };
+		82C91ED21F55036F00F538BA /* RATesTgcd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RATesTgcd.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		82B82F9E1F3AEC8A003AD0FD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				82C91ED21F55036F00F538BA /* RATesTgcd.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82B82FAA1F3AF1E0003AD0FD /* RABaseCell.swift in Sources */,
+				82C91ED31F55036F00F538BA /* RATesTgcd.swift in Sources */,
 				82B82FA71F3AEECA003AD0FD /* RABaseView.swift in Sources */,
 				82B82FAE1F3AF266003AD0FD /* RABaseNC.swift in Sources */,
 				82B82FDE1F3D55CF003AD0FD /* RABaseModel.swift in Sources */,
