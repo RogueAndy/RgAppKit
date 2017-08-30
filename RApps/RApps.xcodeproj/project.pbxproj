@@ -53,9 +53,6 @@
 		82B82FDD1F3D55CF003AD0FD /* RABaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABaseModel.swift; sourceTree = "<group>"; };
 		82B82FDF1F3D55FE003AD0FD /* RAWeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAWeatherModel.swift; sourceTree = "<group>"; };
 		82C91ED21F55036F00F538BA /* RATesTgcd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RATesTgcd.swift; sourceTree = "<group>"; };
-		82C91ED41F55505C00F538BA /* RApps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RApps-Bridging-Header.h"; sourceTree = "<group>"; };
-		82C91ED51F55505D00F538BA /* RABridgeFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RABridgeFile.h; sourceTree = "<group>"; };
-		82C91ED61F55505D00F538BA /* RABridgeFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RABridgeFile.m; sourceTree = "<group>"; };
 		93BC400413117BED322E15DC /* Pods-RApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RApps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RApps/Pods-RApps.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,9 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				82C91ED21F55036F00F538BA /* RATesTgcd.swift */,
-				82C91ED51F55505D00F538BA /* RABridgeFile.h */,
-				82C91ED61F55505D00F538BA /* RABridgeFile.m */,
-				82C91ED41F55505C00F538BA /* RApps-Bridging-Header.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
